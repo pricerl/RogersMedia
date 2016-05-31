@@ -1,0 +1,92 @@
+@charset "UTF-8";
+.container-fluid {
+}
+.sp-middle {
+	background-color: #E39697;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.sp-nav {
+	background-color: #EAE5C9;
+	padding-top: 300px;
+	padding-bottom: 300px;
+}
+.container-fluid.sp-nav {
+	background-color: #D7A9AA;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.sp-footer {
+	background-color: #ADA0A0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.NAV-SNEEK PEEK {
+}
+.SNEEK-PEEK-MENU {
+}
+.container-fluid.sp-banner {
+	background-image: url(wall-1358958_1280.jpg);
+	background-size: contain;
+	padding-top: 50px;
+	padding-bottom: 1000px;
+}
+.h1-sneek-peek-title {
+	color: #0C0E0D;
+	font-size: 75px;
+	text-shadow: -4px 0 #21E214;
+	font-style: normal;
+	font-family: brush-script-std;
+	font-weight: 400;
+}
+.carousel-caption.h3 {
+	color: #000000;
+}
+.carosel-caption-h3 {
+	color: #000000;
+}
+.item.active .carousel-caption h3 {
+	color: #000000;
+}
+.carousel-inner .item.active .carousel-caption {
+}
+.carousel-caption.p {
+	color: #000000;
+}
+.container-fluid.sp-banner .text-center h3 {
+	color: #000000;
+	font-family: brush-script-std;
+	font-style: normal;
+	font-weight: 400;
+}
+.container-fluid.sp-banner .text-center.h1-sneek-peek-title {
+}
+.h3-page-name {
+	color: #000000;
+	font-family: brush-script-std;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	text-shadow: -4px 0px #21E214;
+}
+.text-center.h3-page-name {
+}
+#vidPlayer1 {
+}
+.dm {
+}
+.AJXCSSMenuGaSfRJB {
+}
+.AJXCSSMenuGaSfRJB {
+}
+.dmxHTML5VideoPlayer {
+	float: right;
+}
+
+@media screen{
+.sp-banner {
+	background-color: #D1A233;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+}

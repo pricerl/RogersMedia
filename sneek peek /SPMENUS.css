@@ -1,0 +1,43 @@
+@charset "utf-8";
+/*
+ Ajatix Advanced CSS Drop Down Menu
+ Copyright (C) 2009-2015 Ajatix. All rights reserved.
+ http://www.ajatix.com
+*/
+.AJXCSSMenuGaSfRJB,.AJXCSSMenuGaSfRJB_n,.AJXCSSMenuGaSfRJB *,.AJXCSSMenuGaSfRJB_n * {box-sizing:border-box;}
+.AJXCSSMenuGaSfRJB {position:relative;z-index:100;width:207px;line-height:0;}
+.AJXCSSMenuGaSfRJB ul {position:relative;display:inline-block;margin:0;padding:1px 1px 1px 1px;list-style-type:none;background:#96ba7e;}
+*+html .AJXCSSMenuGaSfRJB ul {display:inline;}
+.AJXCSSMenuGaSfRJB li {float:left;width:205px;margin:0;margin-top:1px;}
+.AJXCSSMenuGaSfRJB li:first-child {margin-top:0;}
+.AJXCSSMenuGaSfRJB li:hover,.AJXCSSMenuGaSfRJB li.ajxover {position:relative;}
+.AJXCSSMenuGaSfRJB a,.AJXCSSMenuGaSfRJB_n a {display:block;overflow:hidden;}
+.AJXCSSMenuGaSfRJB>ul>li>a {height:auto;white-space:normal;padding:7px 8px 7px 16px;font:bold 12px Verdana,Arial,Helvetica,sans-serif;line-height:12px;text-decoration:none;text-transform:none;text-align:left;border:0;color:#ffffff;transition:background-color 0.3s linear;background:#509629;}
+.AJXCSSMenuGaSfRJB>ul>li:hover>a,.AJXCSSMenuGaSfRJB>ul>li.ajxover>a {background:#316415;}
+.AJXCSSMenuGaSfRJB>ul>li>a.ajxsub {width:205px;padding:7px 8px 7px 16px;background:#509629 url(SPMENUS_files/top-sub.gif) no-repeat top right;}
+.AJXCSSMenuGaSfRJB>ul>li:hover>a.ajxsub,.AJXCSSMenuGaSfRJB>ul>li.ajxover>a.ajxsub {position: static;background:#316415 url(SPMENUS_files/top-sub.gif) no-repeat bottom right;}
+.AJXCSSMenuGaSfRJB li ul {position:absolute;left:-9999px;top:-9999px;width:207px;height:auto;display:inline-block;vertical-align:top;font-size:0;float:none;padding:1px 1px 1px 1px;border:none;background:#96ba7e;box-shadow:3px 3px 10px rgba(0,0,0,.5);}
+.AJXCSSMenuGaSfRJB li:hover > ul,.AJXCSSMenuGaSfRJB li.ajxover > ul {left:205px;top:-1px;}
+.AJXCSSMenuGaSfRJB li li {width:205px;margin:0;margin-top:1px;}
+.AJXCSSMenuGaSfRJB li li:first-child {margin-top:0;}
+.AJXCSSMenuGaSfRJB li li a {height:auto;white-space:normal;padding:7px 8px 7px 16px;font:bold 12px Verdana,Arial,Helvetica,sans-serif;line-height:12px;text-decoration:none;text-transform:none;text-align:left;border:0;color:#ffffff;transition:background-color 0.3s linear;background:#509629;}
+.AJXCSSMenuGaSfRJB li li:hover>a,.AJXCSSMenuGaSfRJB li li.ajxover>a {background:#316415;}
+.AJXCSSMenuGaSfRJB li li a.ajxsub {width:205px;padding:7px 8px 7px 16px;background:#509629 url(SPMENUS_files/top-sub.gif) no-repeat top right;}
+.AJXCSSMenuGaSfRJB li li:hover>a.ajxsub,.AJXCSSMenuGaSfRJB li li.ajxover>a.ajxsub {position: static;background:#316415 url(SPMENUS_files/top-sub.gif) no-repeat bottom right;}
+.AJXCSSMenuGaSfRJB li li:hover > ul,.AJXCSSMenuGaSfRJB li li.ajxover > ul {left:205px;top:-1px;}
+@media screen and (max-width:480px) {
+.AJXCSSMenuGaSfRJB:after,.AJXCSSMenuGaSfRJB_n:after {content:'narrow';display:none;}
+.AJXCSSMenuGaSfRJB_n {position:relative;width:100%;z-index:100;padding-top:28px;background:#509629;cursor:pointer;}
+.AJXCSSMenuGaSfRJB_n:before {position:absolute;top:0;right:10px;content:"\2261";font:bold 28px Arial,Helvetica,sans-serif;line-height:28px;color:#ffffff;z-index:1;}
+.AJXCSSMenuGaSfRJB_n>ul:before {position:absolute;top:0;right:32px;content:"Menu";font:bold 14px Arial,Helvetica,sans-serif;line-height:28px;color:#ffffff;z-index:1;cursor:pointer;}
+.AJXCSSMenuGaSfRJB_n ul {margin:0;list-style-type:none;background:#96ba7e;}
+.AJXCSSMenuGaSfRJB_n>ul {height:0;overflow:hidden;}
+.AJXCSSMenuGaSfRJB_n>ul.ajxover,.AJXCSSMenuGaSfRJB_n li ul{height:auto;padding:1px 1px 1px 1px;cursor:default;}
+.AJXCSSMenuGaSfRJB_n li {float:none;margin:1px 0 0 0;display:none;}
+.AJXCSSMenuGaSfRJB_n li:first-child {margin-top:0px;}
+.AJXCSSMenuGaSfRJB_n .ajxover li {display:block;}
+.AJXCSSMenuGaSfRJB_n li a {height:auto;white-space:normal;padding:7px 8px 7px 16px;font:bold 12px Verdana,Arial,Helvetica,sans-serif;line-height:12px;text-decoration:none;text-transform:none;text-align:left;border:0;color:#ffffff;transition:background-color 0.3s linear;background:#509629;}
+.AJXCSSMenuGaSfRJB_n li:hover>a,.AJXCSSMenuGaSfRJB_n li.ajxover>a {background:#316415;}
+.AJXCSSMenuGaSfRJB_n li a.ajxsub {padding:7px 8px 7px 16px;background:#509629 url(SPMENUS_files/mob-sub.gif) no-repeat top right;}
+.AJXCSSMenuGaSfRJB_n li:hover>a.ajxsub,.AJXCSSMenuGaSfRJB_n li.ajxover>a.ajxsub {position: static;background:#316415 url(SPMENUS_files/mob-sub.gif) no-repeat bottom right;}
+}
